@@ -11,26 +11,31 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: #e0e0e058;
-    display: flex;
+  margin: 0;
+  padding: 0;
+
 }
-.sidebar{
-    position: sticky;
-    top: 0;
-    bottom: 0;
-    height: 100vh;
-    left: 0;
-    width: 110px;
-    padding: 0 1.7rem;
-    overflow: hidden;
-    transition: all 0.5s linear;
-    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
-    background: rgba(113, 99,186,255);
+.layout {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
 }
-.sidebar:hover{
-    width: 240px;
-    transition: 0.5s;
+
+.sidebar {
+  width: 110px;
+  transition: width 0.5s;
 }
+
+.sidebar:hover {
+  width: 240px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
 .logo{
     height: 80px;
     padding: 16px;
