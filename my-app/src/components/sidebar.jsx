@@ -1,10 +1,11 @@
-import React from 'react';
-import './style3.css' ;
+import React from "react";
+import "./style3.css";
+import logo from '../assets/image/22.png'
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <div className="logo"></div>
+      <img src={logo} alt="" className="logo"/>
       <ul className="menu">
         <li className="active">
           <a href="Homeem.html">

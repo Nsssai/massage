@@ -4,8 +4,7 @@ import '../components/style3.css';
 
 const Home = () => {
   return (
-    
-    <div className="home-container">
+    <div className="layout">
       <Sidebar />
       <div className="main-content">
         <div className="header-wrapper">
@@ -27,8 +26,14 @@ const Home = () => {
           <div className="about">
             <div className="text">
               <h1>Welcome our Employee'!!</h1>
-              <h5>Be kind & <span>Service Mind</span></h5>
-              <p>"When you encounter fatigue and discomfort, we have the power to alleviate these symptoms and enhance your well-being. Elevate your happiness through our massage services."</p>
+              <h5>
+                Be kind & <span>Service Mind</span>
+              </h5>
+              <p>
+                "When you encounter fatigue and discomfort, we have the power to
+                alleviate these symptoms and enhance your well-being. Elevate
+                your happiness through our massage services."
+              </p>
             </div>
           </div>
         </section>
